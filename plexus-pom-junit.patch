@@ -1,0 +1,17 @@
+--- plexus-pom-plexus-3.3.1/pom.xml.orig	2013-12-22 21:34:32.888270976 -0200
++++ plexus-pom-plexus-3.3.1/pom.xml	2013-12-22 21:37:08.584264703 -0200
+@@ -298,12 +298,12 @@ limitations under the License.
+   </properties>
+ 
+   <dependencies>
+-    <dependency>
++    <!-- <dependency>
+       <groupId>junit</groupId>
+       <artifactId>junit</artifactId>
+       <version>3.8.2</version>
+       <scope>test</scope>
+-    </dependency>
++    </dependency> -->
+   </dependencies>
+ 
+   <build>
