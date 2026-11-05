@@ -8,6 +8,9 @@ URL:           https://github.com/codehaus-plexus/plexus-pom
 Source0:       https://github.com/codehaus-plexus/plexus-pom/archive/refs/tags/plexus-%{version}.tar.gz
 Source1:       https://www.apache.org/licenses/LICENSE-2.0.txt
 BuildArch:     noarch
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 BuildOption:	validate
 
